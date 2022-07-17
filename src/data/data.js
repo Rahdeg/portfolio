@@ -43,7 +43,7 @@ import {
         title: "WEB DEVELOPER",
         location: "Nigeria",
         description:
-          "Contribute to building React Projects ,  Project Management, Team Leading",
+          "Contribute to building React Project ,  Project Management, Team Leading",
       },
     
   ];
