@@ -9,12 +9,12 @@ import {
   import {DiJavascript1,DiNodejs,DiCss3,DiReact} from "react-icons/di"
   import {AiFillDatabase,AiFillHtml5} from 'react-icons/ai'
   import{TbBrandNextjs} from 'react-icons/tb'
-  import {SiMaterialui,SiStyledcomponents} from 'react-icons/si'
+  import {SiMaterialui,SiStyledcomponents,SiTailwindcss} from 'react-icons/si'
   import img1 from "../images/thumb-fooddeliveryapp-reactjs-dec.png";
-  import img2 from "../images/thumb-fullstack-socialmedia-app-react-sanity.png";
+  import img2 from "../images/url.jpg";
   import img3 from "../images/thumb-google-map-clone-nextjs-feb22.png";
-  import img4 from "../images/thumb-pinterest-clone-reactjs.png";
-  import img5 from "../images/thumb-videoblog-firebase-reactjs-feb-22.png";
+  import img4 from "../images/dash.jpg";
+  import img5 from "../images/api.jpg";
   import img6 from "../images/thumb-whatsappui-clone-nextjs.png";
   
   export const Experience = [
@@ -38,12 +38,12 @@ import {
     },
     {
         id: 2,
-        date: "2021 - 2022",
+        date: "2022 - Tilldate",
         iconsSrc: <IoCodeWorking />,
-        title: "CAFE MANAGER",
-        location: "Ogun, Nigeria",
+        title: "WEB DEVELOPER",
+        location: "Nigeria",
         description:
-          "Contribute to business development ,  Project Management, Team Leading",
+          "Contribute to building React Projects ,  Project Management, Team Leading",
       },
     
   ];
@@ -55,13 +55,15 @@ import {
       imageSrc: img1,
       techs: "React Js, Redux, Material UI",
       github: "https://github.com/Rahdeg",
+      site:""
     },
     {
       id: 2,
-      name: "Full Stack Social Media App ",
+      name: "Url Shortner ",
       imageSrc: img2,
-      techs: "React Js, Sanity, Tailwind CSS",
-      github: "https://github.com/Rahdeg",
+      techs: "React Js, Nodejs,Express Mongodb",
+      github: "https://github.com/Rahdeg/crudeapi/tree/main/project-3",
+      site:"https://shorturl22b.herokuapp.com/"
     },
     {
       id: 3,
@@ -69,20 +71,23 @@ import {
       imageSrc: img3,
       techs: "React Js, Chakra UI, Google API",
       github: "https://github.com/Rahdeg",
+      site:""
     },
     {
       id: 4,
-      name: "Pintrest UI Clone 2.0 ",
+      name: "Responsive Dashboard",
       imageSrc: img4,
       techs: "React Js,  Material UI",
-      github: "https://github.com/Rahdeg",
+      github: "https://github.com/Rahdeg/dashboard",
+      site:"https://effervescent-crepe-47cc81.netlify.app/"
     },
     {
       id: 5,
-      name: "Own Video Blog",
+      name: "Crude Music API",
       imageSrc: img5,
       techs: "React Js, Chara UI, Firebase",
-      github: "https://github.com/Rahdeg",
+      github: "https://github.com/Rahdeg/crudeapi/tree/main/project-4",
+      site:"https://musicappa.herokuapp.com/"
     },
     {
       id: 6,
@@ -90,6 +95,7 @@ import {
       imageSrc: img6,
       techs: "NextJs, Firebase Auth",
       github: "https://github.com/Rahdeg",
+      site:""
     },
   ];
   
@@ -112,7 +118,7 @@ import {
         <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />
       ),
       name: "Twitter",
-      link: "https://github.com/Rahdeg",
+      link: "https://twitter.com/Walett25?t=_1LdjsWrzbufJqVqTD8uWA&s=09",
     },
     {
       id: 1,
@@ -120,7 +126,7 @@ import {
         <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
       ),
       name: "LinkedIn",
-      link: "#",
+      link: "www.linkedin.com/in/raheemadegbite",
     },
     {
       id: 1,
@@ -128,7 +134,7 @@ import {
         <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
       ),
       name: "Whatsapp",
-      link: "https://github.com/Rahdeg",
+      link: " https://wa.me/message/JKPVPVN3EQPYH1",
     },
   ];
   
@@ -201,6 +207,14 @@ import {
         ),
         name: "Styled Components",
         description: "Using component-level styles in your app.",
+      },
+      {
+        id: 1,
+        iconSrc: (
+          <SiTailwindcss className="text-green-500 text-3xl cursor-pointer" />
+        ),
+        name: "Tailwind CSS",
+        description: "For Responsive website",
       },
     
   ];

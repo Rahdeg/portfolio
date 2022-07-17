@@ -22,7 +22,7 @@ function App() {
       <a href="#project" className=" text-base text-textBase py-1 font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out" > Projects</a>
       <a href="#skills" className=" text-base text-textBase py-1 font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out" > Skills</a>
       <a href="#contact" className=" text-base text-textBase py-1 font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out" > Contact</a>
-      <a href="#download" className=" ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out" > Download</a>
+      <a href="https://myresume22.herokuapp.com/" target='_blank' rel="noreferrer" className=" ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out" > Download</a>
       </div>
       <motion.div 
       whileTap={{scale: 0.5}}
@@ -46,8 +46,8 @@ function App() {
       <a href="#contact" className=" text-base text-textBase py-1 font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out" onClick={()=>setisActive(false)} > Contact</a>
       <motion.a 
       whileTap={{scale:0.8}}
-      href="#download" 
-      className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out" onClick={()=>setisActive(false)}> Download</motion.a>
+      href="https://myresume22.herokuapp.com/" target='_blank' rel="noreferrer"
+      className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out" onClick={(e)=>setisActive(false)}> Download</motion.a>
           </motion.div>
         )
       }
@@ -67,7 +67,7 @@ function App() {
     <motion.button 
     whileTap={{scale:0.8}}
     class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
-    <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+    <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0" onClick={(e)=> window.open("https://myresume22.herokuapp.com/",'_blank')}>
       Download CV
     </span>
   </motion.button>
@@ -121,7 +121,7 @@ function App() {
     <p className=" text-4xl text-cyan-700 flex items-center justify-center font-bold mt-2">Projects</p>
     <section className="flex flex-wrap items-center justify-evenly my-24 gap-4" id="project">
     {Projects && Projects.map((data,idx)=>(
-      <div className=" border border-zinc-800 rounded-md  p-2 min-w-[275px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out cursor-pointer" key={idx}>
+      <div className=" border border-zinc-800 rounded-md  p-2 min-w-[275px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out cursor-pointer" key={idx}  onClick={(e)=> window.open(data.site,'_blank')}>
     <p className=" text-md text-textBase font-medium uppercase">
     {data.name.length > 25 ? `${data.name.slice(0,25)}...`: data.name}
     </p>
@@ -132,7 +132,7 @@ function App() {
     {data.techs}
     </span>
     </p>
-    <a href={data.github}>
+    <a href={data.github}target='_blank' rel="noreferrer" >
     <motion.div whileTap={{scale:0.8}}>
     <IoLogoGithub className=" text text-textBase text-3xl cursor-pointer"/>
     </motion.div>
@@ -152,7 +152,7 @@ function App() {
       
       <motion.a 
       whileTap={{scale:0.8}}
-      href={data.link} className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3" id={idx}>
+      href={data.link} target='_blank' rel="noreferrer" className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3" id={idx}>
       {data.iconSrc}
       <p className=" text-lg text-textBase">{data.name}</p>
       </motion.a>
