@@ -15,7 +15,8 @@ import {
   import img3 from "../images/thumb-google-map-clone-nextjs-feb22.png";
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
-  import img6 from "../images/thumb-whatsappui-clone-nextjs.png";
+  import img7 from '../images/robot.jpg'
+
   
   export const Experience = [
     {
@@ -91,12 +92,13 @@ import {
     },
     {
       id: 6,
-      name: "Whatsapp UI Clone",
-      imageSrc: img6,
-      techs: "NextJs, Firebase Auth",
-      github: "https://github.com/Rahdeg",
-      site:""
+      name: "Robot Friends",
+      imageSrc: img7,
+      techs: "React Js, Tailwind CSS",
+      github: "https://github.com/Rahdeg/robofriends",
+      site:"https://robofries.herokuapp.com/"
     },
+    
   ];
   
   export const SocialLinks = [
