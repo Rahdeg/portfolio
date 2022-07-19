@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {IoMenu,IoLogoGithub} from 'react-icons/io5'
+import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import Raheem from './images/Rah2.jpg'
 import {Experience,Projects,SocialLinks,Skills} from './data/data'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -121,9 +122,10 @@ function App() {
     <p className=" text-4xl text-cyan-700 flex items-center justify-center font-bold mt-2">Projects</p>
     <section className="flex flex-wrap items-center justify-evenly my-24 gap-4" id="project">
     {Projects && Projects.map((data,idx)=>(
-      <div className=" border border-zinc-800 rounded-md  p-2 min-w-[275px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out cursor-pointer" key={idx}  onClick={(e)=> window.open(data.site,'_blank')}>
+      <div className=" border border-zinc-800 rounded-md  p-2 min-w-[275px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out cursor-pointer" key={idx}  >
     <p className=" text-md text-textBase font-medium uppercase">
     {data.name.length > 25 ? `${data.name.slice(0,25)}...`: data.name}
+    <span className="ml-1 text-sm"><BsFillArrowRightCircleFill onClick={(e)=> window.open(data.site,'_blank')}/></span>
     </p>
     <img src={data.imageSrc} alt='dd' className="w-full h-full object-cover rounded-md my-4"/>
     <div className="flex flex-1 items-center justify-between">
