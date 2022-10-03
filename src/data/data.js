@@ -16,6 +16,7 @@ import {
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
   import img7 from '../images/robot.jpg'
+  import img8 from '../images/tithew.jpg'
 
   
   export const Experience = [
@@ -55,8 +56,8 @@ import {
       name: "Food Delivery UI Mockup",
       imageSrc: img1,
       techs: "React Js, Redux, Material UI",
-      github: "https://github.com/Rahdeg",
-      site:""
+      github: "https://github.com/Rahdeg/foodtribes",
+      site:"https://restaurant-10db5.web.app/"
     },
     {
       id: 2,
@@ -87,8 +88,16 @@ import {
       name: "Crude Music API",
       imageSrc: img5,
       techs: "React Js, Chara UI, Firebase",
-      github: "https://github.com/Rahdeg/crudeapi/tree/main/project-4",
+      github: "https://github.com/Rahdeg/musicback",
       site:"https://musicappa.herokuapp.com/"
+    },
+    {
+      id: 7,
+      name: "Titheapp Api",
+      imageSrc: img8,
+      techs: "Nodejs, MongoDB, Flutterwave,",
+      github: "https://github.com/Rahdeg/TitheBox",
+      site:"https://tithebox.org/"
     },
     {
       id: 6,
@@ -97,7 +106,7 @@ import {
       techs: "React Js, Tailwind CSS",
       github: "https://github.com/Rahdeg/robofriends",
       site:"https://robofries.herokuapp.com/"
-    },
+    }
     
   ];
   
