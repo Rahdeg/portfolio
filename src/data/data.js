@@ -12,7 +12,7 @@ import {
   import {SiMaterialui,SiStyledcomponents,SiTailwindcss} from 'react-icons/si'
   import img1 from "../images/thumb-fooddeliveryapp-reactjs-dec.png";
   import img2 from "../images/url.jpg";
-  import img3 from "../images/thumb-google-map-clone-nextjs-feb22.png";
+  import img3 from "../images/lend.jpg";
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
   import img7 from '../images/robot.jpg'
@@ -69,11 +69,11 @@ import {
     },
     {
       id: 3,
-      name: "Travel Advisor",
+      name: "Financial Dashboard",
       imageSrc: img3,
-      techs: "React Js, Chakra UI, Google API",
-      github: "https://github.com/Rahdeg",
-      site:""
+      techs: "React Js, Typescript",
+      github: "https://github.com/Rahdeg/lendsqr-fe-test",
+      site:"https://dashboard-40ae4.web.app/"
     },
     {
       id: 4,
@@ -158,7 +158,7 @@ import {
       description: " one of the best Progamming Language.",
     },
     {
-        id: 1,
+        id: 2,
         iconSrc: (
           <DiNodejs className="text-green-500 text-3xl cursor-pointer" />
         ),
@@ -166,7 +166,7 @@ import {
         description: " Nodejs,Express... ",
       },
       {
-        id: 1,
+        id: 3,
         iconSrc: (
           <AiFillDatabase className="text-green-500 text-3xl cursor-pointer" />
         ),
@@ -174,13 +174,13 @@ import {
         description: " MySql,MongoDB and Postgresql ",
       },
     {
-      id: 1,
+      id: 4,
       iconSrc: <AiFillHtml5 className="text-red-500 text-3xl cursor-pointer" />,
       name: "Html 5",
       description: "Tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web.",
     },
     {
-      id: 1,
+      id: 5,
       iconSrc: (
         <DiCss3 className="text-blue-500 text-3xl cursor-pointer" />
       ),
@@ -188,7 +188,7 @@ import {
       description: "Cascading Style Sheets  for Styling Applications.",
     },
     {
-      id: 1,
+      id: 6,
       iconSrc: (
         <DiReact className="text-blue-800 text-3xl cursor-pointer" />
       ),
@@ -196,7 +196,7 @@ import {
       description: " front-end JavaScript library for UI components.",
     },
     {
-      id: 1,
+      id: 7,
       iconSrc: (
         <TbBrandNextjs className="text-green-500 text-3xl cursor-pointer" />
       ),
@@ -204,7 +204,7 @@ import {
       description: "Building blocks to create web applications. ",
     },
     {
-        id: 1,
+        id: 8,
         iconSrc: (
           <SiMaterialui className="text-blue-800 text-3xl cursor-pointer" />
         ),
@@ -212,7 +212,7 @@ import {
         description: "React components that implement Google's Material Design.",
       },
       {
-        id: 1,
+        id: 9,
         iconSrc: (
           <SiStyledcomponents className="text-green-500 text-3xl cursor-pointer" />
         ),
@@ -220,7 +220,7 @@ import {
         description: "Using component-level styles in your app.",
       },
       {
-        id: 1,
+        id: 10,
         iconSrc: (
           <SiTailwindcss className="text-green-500 text-3xl cursor-pointer" />
         ),
