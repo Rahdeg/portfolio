@@ -14,9 +14,28 @@ code {
     monospace;
 }
 
-body::-webkit-scrollbar,html::-webkit-scrollbar{
+/* body::-webkit-scrollbar,html::-webkit-scrollbar{
   display: none;
+} */
+body::-webkit-scrollbar-horizontal,html::-webkit-scrollbar-horizontal{
+  display: none;
+  
 }
+body {
+  overflow-x: hidden;
+}
+
+/* style the scrollbar */
+body::-webkit-scrollbar {
+  width: 0.3em;
+  background-color: #080000;
+}
+ 
+/* style the thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: gray ;
+}
+ 
 
 body,html{
   scroll-behavior: smooth;

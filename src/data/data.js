@@ -17,6 +17,7 @@ import {
   import img5 from "../images/api.jpg";
   import img7 from '../images/robot.jpg'
   import img8 from '../images/tithew.jpg'
+  import img9 from '../images/netflix.jpg'
 
   
   export const Experience = [
@@ -92,7 +93,7 @@ import {
       site:"https://musicappa.herokuapp.com/"
     },
     {
-      id: 7,
+      id: 6,
       name: "Titheapp Api",
       imageSrc: img8,
       techs: "Nodejs, MongoDB, Flutterwave,",
@@ -100,12 +101,20 @@ import {
       site:"https://tithebox.org/"
     },
     {
-      id: 6,
+      id: 7,
       name: "Robot Friends",
       imageSrc: img7,
       techs: "React Js, Tailwind CSS",
       github: "https://github.com/Rahdeg/robofriends",
       site:"https://robofries.herokuapp.com/"
+    },
+    {
+      id: 8,
+      name: "Movie App",
+      imageSrc: img9,
+      techs: "Next.js, React Js, Tailwind CSS , Firebase",
+      github: "https://github.com/Rahdeg/mymovie",
+      site:"https://mymovie-csc6-rahdeg.vercel.app/login"
     }
     
   ];
@@ -137,7 +146,7 @@ import {
         <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
       ),
       name: "LinkedIn",
-      link: "www.linkedin.com/in/raheemadegbite",
+      link: "https://www.linkedin.com/in/raheemadegbite/",
     },
     {
       id: 1,
