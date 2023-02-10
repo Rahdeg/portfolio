@@ -277,7 +277,7 @@ function App() {
           id="contacts"
           className="flex flex-col items-center justify-evenly w-full my-24"
         >
-          <p className="text-2xl text-gray-400 capitalize">Follow me on</p>
+          <p className="text-2xl text-gray-400 capitalize">Contact me</p>
           <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">
             {SocialLinks &&
               SocialLinks.map((n) => (
