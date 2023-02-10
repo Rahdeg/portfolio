@@ -114,7 +114,7 @@ import {
       imageSrc: img9,
       techs: "Next.js, React Js, Tailwind CSS , Firebase",
       github: "https://github.com/Rahdeg/mymovie",
-      site:"https://mymovie-csc6-rahdeg.vercel.app/login"
+      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
     }
     
   ];
