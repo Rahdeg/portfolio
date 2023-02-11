@@ -62,12 +62,13 @@ import {
     },
     {
       id: 2,
-      name: "Url Shortner ",
-      imageSrc: img2,
-      techs: "React Js, Nodejs,Express Mongodb",
-      github: "https://github.com/Rahdeg/crudeapi/tree/main/project-3",
-      site:"https://shorturl22b.herokuapp.com/"
+      name: "Movie App",
+      imageSrc: img9,
+      techs: "Next.js,Tailwind,Firebase",
+      github: "https://github.com/Rahdeg/mymovie",
+      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
     },
+    
     {
       id: 3,
       name: "Financial Dashboard",
@@ -110,12 +111,12 @@ import {
     },
     {
       id: 8,
-      name: "Movie App",
-      imageSrc: img9,
-      techs: "Next.js, React Js, Tailwind CSS , Firebase",
-      github: "https://github.com/Rahdeg/mymovie",
-      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
-    }
+      name: "Url Shortner ",
+      imageSrc: img2,
+      techs: "React Js, Nodejs,Express Mongodb",
+      github: "https://github.com/Rahdeg/crudeapi/tree/main/project-3",
+      site:"https://shorturl22b.herokuapp.com/"
+    },
     
   ];
   
