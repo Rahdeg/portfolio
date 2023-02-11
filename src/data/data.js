@@ -68,14 +68,13 @@ import {
       github: "https://github.com/Rahdeg/mymovie",
       site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
     },
-    
     {
       id: 3,
-      name: "Financial Dashboard",
-      imageSrc: img3,
-      techs: "React Js, Typescript",
-      github: "https://github.com/Rahdeg/lendsqr-fe-test",
-      site:"https://dashboard-40ae4.web.app/"
+      name: "Titheapp Api",
+      imageSrc: img8,
+      techs: "Nodejs, MongoDB, Flutterwave,",
+      github: "https://github.com/Rahdeg/TitheBox",
+      site:"https://tithebox.org/"
     },
     {
       id: 4,
@@ -94,12 +93,12 @@ import {
       site:"https://musicappa.herokuapp.com/"
     },
     {
-      id: 6,
-      name: "Titheapp Api",
-      imageSrc: img8,
-      techs: "Nodejs, MongoDB, Flutterwave,",
-      github: "https://github.com/Rahdeg/TitheBox",
-      site:"https://tithebox.org/"
+      id: 3,
+      name: "Financial Dashboard",
+      imageSrc: img3,
+      techs: "React Js, Typescript",
+      github: "https://github.com/Rahdeg/lendsqr-fe-test",
+      site:"https://dashboard-40ae4.web.app/"
     },
     {
       id: 7,
