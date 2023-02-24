@@ -1,11 +1,7 @@
 import { useState } from "react";
 import { IoMenu, IoLogoGithub } from "react-icons/io5";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import { Experience, Projects, Skills, SocialLinks } from "./data/data";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { Projects, Skills, SocialLinks } from "./data/data";
 import { AnimatePresence, motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -196,7 +192,7 @@ function App() {
                 </motion.div>
               ))}
           </section>
-          <p className=" text-4xl text-cyan-700 flex items-center justify-center font-bold">
+          {/*<p className=" text-4xl text-cyan-700 flex items-center justify-center font-bold">
             Experience
           </p>
           <section
@@ -225,7 +221,7 @@ function App() {
                   </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
-          </section>
+                </section>*/}
           <p className=" text-4xl text-cyan-700 flex items-center justify-center font-bold mt-2">
             Projects
           </p>
@@ -274,7 +270,7 @@ function App() {
               ))}
           </section>
           <section
-          id="contacts"
+          id="contact"
           className="flex flex-col items-center justify-evenly w-full my-24"
         >
           <p className="text-2xl text-gray-400 capitalize">Contact me</p>
