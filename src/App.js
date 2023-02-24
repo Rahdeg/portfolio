@@ -143,7 +143,7 @@ function App() {
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p class="text-md mt-6 text-textBase text-center lg:text-3xl lg:tracking-wider  lg:px-16 lg:mt-20 ">
                 I am <b class=" text-cyan-700">Adegbite Raheem</b>,
-                <b class=" text-cyan-700">Full Stack Developer </b>. I create
+                <b class=" text-cyan-700">Web Developer </b>. I create
                 interactive experiences for people using modern web
                 technology,independent fellow who has soft spot for team/group
                 work. Committed to high standards of service, performance and
