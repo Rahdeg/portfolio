@@ -52,7 +52,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1-M441pdTZLJDpefKPjzRUYhvb7Ih5QHD/view?usp=share_link "
+                href="https://drive.google.com/file/d/1q1Wxl3qcikuj1mtC8c4wh5QQSN9Xga5H/view"
                 target="_blank"
                 rel="noreferrer"
                 className=" ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
@@ -118,7 +118,7 @@ function App() {
                 </a>
                 <motion.a
                   whileTap={{ scale: 0.8 }}
-                  href="https://drive.google.com/file/d/1-M441pdTZLJDpefKPjzRUYhvb7Ih5QHD/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1q1Wxl3qcikuj1mtC8c4wh5QQSN9Xga5H/view"
                   target="_blank"
                   rel="noreferrer"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"

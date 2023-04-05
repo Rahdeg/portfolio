@@ -15,7 +15,7 @@ import {
   import img3 from "../images/lend.jpg";
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
-  import img7 from '../images/robot.jpg'
+  import img7 from '../images/nupat.jpg'
   import img8 from '../images/tithew.jpg'
   import img9 from '../images/netflix.jpg'
 
@@ -70,6 +70,14 @@ import {
     },
     {
       id: 3,
+      name: "Nupat landing Page",
+      imageSrc: img7,
+      techs: "React Js, Tailwind CSS",
+      github: "https://github.com/Rahdeg/nupat-phase1",
+      site:"https://nupat-phase1-xalw.vercel.app/"
+    },
+    {
+      id: 4,
       name: "Titheapp Api",
       imageSrc: img8,
       techs: "Nodejs, MongoDB, Flutterwave,",
@@ -77,7 +85,7 @@ import {
       site:"https://tithebox.org/"
     },
     {
-      id: 4,
+      id: 5,
       name: "Responsive Dashboard",
       imageSrc: img4,
       techs: "React Js,  Material UI",
@@ -85,7 +93,7 @@ import {
       site:"https://effervescent-crepe-47cc81.netlify.app/"
     },
     {
-      id: 5,
+      id: 6,
       name: "Crude Music API",
       imageSrc: img5,
       techs: "React Js, Chara UI, Firebase",
@@ -93,21 +101,14 @@ import {
       site:"https://musicappa.herokuapp.com/"
     },
     {
-      id: 3,
+      id: 7,
       name: "Financial Dashboard",
       imageSrc: img3,
       techs: "React Js, Typescript",
       github: "https://github.com/Rahdeg/lendsqr-fe-test",
       site:"https://dashboard-40ae4.web.app/"
     },
-    {
-      id: 7,
-      name: "Robot Friends",
-      imageSrc: img7,
-      techs: "React Js, Tailwind CSS",
-      github: "https://github.com/Rahdeg/robofriends",
-      site:"https://robofries.herokuapp.com/"
-    },
+    
     {
       id: 8,
       name: "Url Shortner ",
