@@ -7,18 +7,19 @@ import {
     IoLogoWhatsapp,
   } from "react-icons/io5";
   import {DiJavascript1,DiNodejs,DiCss3,DiReact} from "react-icons/di"
+  import{SiTypescript} from "react-icons/si"
   import {AiFillDatabase,AiFillHtml5} from 'react-icons/ai'
   import{TbBrandNextjs} from 'react-icons/tb'
   import {SiMaterialui,SiStyledcomponents,SiTailwindcss} from 'react-icons/si'
   import img1 from "../images/thumb-fooddeliveryapp-reactjs-dec.png";
   import img2 from "../images/url.jpg";
-  import img3 from "../images/lend.jpg";
+ 
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
   import img10 from '../images/admin.jpg'
   import img11 from '../images/store.jpg'
   import img8 from '../images/tithew.jpg'
-  import img9 from '../images/netflix.jpg'
+  
 
   
   export const Experience = [
@@ -57,7 +58,7 @@ import {
       id: 1,
       name: "Ecommerce Admin",
       imageSrc: img10,
-      techs: "Next 13,React,Prisma,MySQL,Tailwind ",
+      techs: "Next 13,React,Prisma,MySQL,Tailwind",
       github: "https://github.com/Rahdeg/e-commerce",
       site:"https://e-commerce-admin-khaki.vercel.app/"
     },
@@ -100,22 +101,6 @@ import {
       techs: "React Js,  Material UI",
       github: "https://github.com/Rahdeg/dashboard",
       site:"https://effervescent-crepe-47cc81.netlify.app/"
-    },
-    {
-      id: 7,
-      name: "Movie App",
-      imageSrc: img9,
-      techs: "Next.js,Tailwind,Firebase",
-      github: "https://github.com/Rahdeg/mymovie",
-      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
-    },
-    {
-      id: 8,
-      name: "Financial Dashboard",
-      imageSrc: img3,
-      techs: "React Js, Typescript",
-      github: "https://github.com/Rahdeg/lendsqr-fe-test",
-      site:"https://dashboard-40ae4.web.app/"
     },
     
     {
@@ -175,6 +160,14 @@ import {
       iconSrc: <DiJavascript1 className=" text text-slate-200  text-4xl cursor-pointer "/>,
       name: "JAVASCRIPT",
       description: " one of the best Progamming Language.",
+    },
+    {
+      id: 11,
+      iconSrc: (
+        <SiTypescript className="text-green-500 text-3xl cursor-pointer" />
+      ),
+      name: "Typescript",
+      description: "one of the best Progamming Language",
     },
     {
         id: 2,
@@ -246,6 +239,8 @@ import {
         name: "Tailwind CSS",
         description: "For Responsive website",
       },
+      
+    
     
   ];
   
