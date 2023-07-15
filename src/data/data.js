@@ -15,7 +15,8 @@ import {
   import img3 from "../images/lend.jpg";
   import img4 from "../images/dash.jpg";
   import img5 from "../images/api.jpg";
-  import img7 from '../images/nupat.jpg'
+  import img10 from '../images/admin.jpg'
+  import img11 from '../images/store.jpg'
   import img8 from '../images/tithew.jpg'
   import img9 from '../images/netflix.jpg'
 
@@ -54,6 +55,22 @@ import {
   export const Projects = [
     {
       id: 1,
+      name: "Ecommerce Admin",
+      imageSrc: img10,
+      techs: "Next 13,React,Prisma,MySQL,Tailwind ",
+      github: "https://github.com/Rahdeg/e-commerce",
+      site:"https://e-commerce-admin-khaki.vercel.app/"
+    },
+    {
+      id: 2,
+      name: "Ecommerce Store",
+      imageSrc: img11,
+      techs: "Next 13,React,Prisma,MySQL,Tailwind",
+      github: "https://github.com/Rahdeg/ecommerce-store",
+      site:"https://ecommerce-store-teal-five.vercel.app/"
+    },
+    {
+      id: 3,
       name: "Food Delivery UI Mockup",
       imageSrc: img1,
       techs: "React Js, Redux, Material UI",
@@ -61,23 +78,15 @@ import {
       site:"https://restaurant-10db5.web.app/"
     },
     {
-      id: 2,
-      name: "Movie App",
-      imageSrc: img9,
-      techs: "Next.js,Tailwind,Firebase",
-      github: "https://github.com/Rahdeg/mymovie",
-      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
-    },
-    {
-      id: 3,
-      name: "Nupat landing Page",
-      imageSrc: img7,
-      techs: "React Js, Tailwind CSS",
-      github: "https://github.com/Rahdeg/nupat-phase1",
-      site:"https://nupat-phase1-xalw.vercel.app/"
-    },
-    {
       id: 4,
+      name: "Itunez App",
+      imageSrc: img5,
+      techs: "React Js, Firebase,Nodejs Tailwind css",
+      github: "https://github.com/Rahdeg/mymusic",
+      site:"https://itunez.vercel.app/"
+    },
+    {
+      id: 5,
       name: "Titheapp Api",
       imageSrc: img8,
       techs: "Nodejs, MongoDB, Flutterwave,",
@@ -85,7 +94,7 @@ import {
       site:"https://tithebox.org/"
     },
     {
-      id: 5,
+      id: 6,
       name: "Responsive Dashboard",
       imageSrc: img4,
       techs: "React Js,  Material UI",
@@ -93,15 +102,15 @@ import {
       site:"https://effervescent-crepe-47cc81.netlify.app/"
     },
     {
-      id: 6,
-      name: "Crude Music API",
-      imageSrc: img5,
-      techs: "React Js, Chara UI, Firebase",
-      github: "https://github.com/Rahdeg/musicback",
-      site:"https://musicappa.herokuapp.com/"
+      id: 7,
+      name: "Movie App",
+      imageSrc: img9,
+      techs: "Next.js,Tailwind,Firebase",
+      github: "https://github.com/Rahdeg/mymovie",
+      site:"https://mymovie-csc6-git-main-rahdeg.vercel.app/"
     },
     {
-      id: 7,
+      id: 8,
       name: "Financial Dashboard",
       imageSrc: img3,
       techs: "React Js, Typescript",
@@ -110,7 +119,7 @@ import {
     },
     
     {
-      id: 8,
+      id: 9,
       name: "Url Shortner ",
       imageSrc: img2,
       techs: "React Js, Nodejs,Express Mongodb",
@@ -218,7 +227,7 @@ import {
         iconSrc: (
           <SiMaterialui className="text-blue-800 text-3xl cursor-pointer" />
         ),
-        name: "Material UI",
+        name: "Shadcn UI",
         description: "React components that implement Google's Material Design.",
       },
       {
