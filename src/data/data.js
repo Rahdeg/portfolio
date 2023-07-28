@@ -19,6 +19,7 @@ import {
   import img10 from '../images/admin.jpg'
   import img11 from '../images/store.jpg'
   import img8 from '../images/tithew.jpg'
+  import img100 from "../images/ai.jpg"
   
 
   
@@ -58,7 +59,7 @@ import {
       id: 1,
       name: "Ecommerce Admin",
       imageSrc: img10,
-      techs: "Next 13,React,Prisma,MySQL,Tailwind",
+      techs: "Next 13,Clerk,Prisma,MySQL,Tailwind",
       github: "https://github.com/Rahdeg/e-commerce",
       site:"https://e-commerce-admin-khaki.vercel.app/"
     },
@@ -80,6 +81,14 @@ import {
     },
     {
       id: 4,
+      name: "Ai Platform",
+      imageSrc: img100,
+      techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
+      github: "https://github.com/Rahdeg/Ai-platform",
+      site:"https://ai-platform-dun.vercel.app/"
+    },
+    {
+      id: 5,
       name: "Itunez App",
       imageSrc: img5,
       techs: "React Js, Firebase,Nodejs Tailwind css",
@@ -87,7 +96,7 @@ import {
       site:"https://itunez.vercel.app/"
     },
     {
-      id: 5,
+      id: 6,
       name: "Titheapp Api",
       imageSrc: img8,
       techs: "Nodejs, MongoDB, Flutterwave,",
@@ -95,7 +104,7 @@ import {
       site:"https://tithebox.org/"
     },
     {
-      id: 6,
+      id: 7,
       name: "Responsive Dashboard",
       imageSrc: img4,
       techs: "React Js,  Material UI",
@@ -104,7 +113,7 @@ import {
     },
     
     {
-      id: 9,
+      id: 8,
       name: "Url Shortner ",
       imageSrc: img2,
       techs: "React Js, Nodejs,Express Mongodb",
