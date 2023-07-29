@@ -57,6 +57,14 @@ import {
   export const Projects = [
     {
       id: 1,
+      name: "Ai Platform",
+      imageSrc: img100,
+      techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
+      github: "https://github.com/Rahdeg/Ai-platform",
+      site:"https://ai-platform-dun.vercel.app/"
+    },
+    {
+      id: 2,
       name: "Ecommerce Admin",
       imageSrc: img10,
       techs: "Next 13,Clerk,Prisma,MySQL,Tailwind",
@@ -64,7 +72,7 @@ import {
       site:"https://e-commerce-admin-khaki.vercel.app/"
     },
     {
-      id: 2,
+      id: 3,
       name: "Ecommerce Store",
       imageSrc: img11,
       techs: "Next 13,React,Prisma,MySQL,Tailwind",
@@ -72,20 +80,12 @@ import {
       site:"https://ecommerce-store-teal-five.vercel.app/"
     },
     {
-      id: 3,
+      id: 4,
       name: "Food Delivery UI Mockup",
       imageSrc: img1,
       techs: "React Js, Redux, Material UI",
       github: "https://github.com/Rahdeg/foodtribes",
       site:"https://restaurant-10db5.web.app/"
-    },
-    {
-      id: 4,
-      name: "Ai Platform",
-      imageSrc: img100,
-      techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
-      github: "https://github.com/Rahdeg/Ai-platform",
-      site:"https://ai-platform-dun.vercel.app/"
     },
     {
       id: 5,
