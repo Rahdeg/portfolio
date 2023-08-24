@@ -58,7 +58,7 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
-    name: "Ai Platform",
+    name: "Companion AI",
     imageSrc: img100,
     techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
     github: "https://github.com/Rahdeg/my-companion",
