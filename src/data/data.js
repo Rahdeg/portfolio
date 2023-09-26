@@ -20,8 +20,8 @@ import img2 from "../images/url.jpg";
 
 import img4 from "../images/dash.jpg";
 import img5 from "../images/api.jpg";
-import img10 from "../images/admin.jpg";
-import img11 from "../images/store.jpg";
+import img10 from "../images/pixroom.jpg";
+import img11 from "../images/moviebox.jpg";
 import img8 from "../images/tithew.jpg";
 import img100 from "../images/companion.jpg";
 
@@ -66,19 +66,20 @@ export const Projects = [
   },
   {
     id: 2,
-    name: "Ecommerce Admin",
+    name: "Drag N Drop Gallery",
     imageSrc: img10,
-    techs: "Next 13,Clerk,Prisma,MySQL,Tailwind",
-    github: "https://github.com/Rahdeg/e-commerce",
-    site: "https://e-commerce-admin-khaki.vercel.app/",
+    techs: "Next 13,Clerk,Tailwind,ReactDnD",
+    github: "https://github.com/Rahdeg/hngx3",
+    site: "https://hngx3.vercel.app/",
   },
+
   {
     id: 3,
-    name: "Ecommerce Store",
+    name: "Movie Box",
     imageSrc: img11,
-    techs: "Next 13,React,Prisma,MySQL,Tailwind",
-    github: "https://github.com/Rahdeg/ecommerce-store",
-    site: "https://ecommerce-store-teal-five.vercel.app/",
+    techs: "Next 13,React,MBDN,Tailwind",
+    github: "https://github.com/Rahdeg/moviebox",
+    site: "https://moviebox-tau.vercel.app/",
   },
   {
     id: 4,
@@ -88,6 +89,7 @@ export const Projects = [
     github: "https://github.com/Rahdeg/foodtribes",
     site: "https://restaurant-10db5.web.app/",
   },
+
   {
     id: 5,
     name: "Itunez App",
