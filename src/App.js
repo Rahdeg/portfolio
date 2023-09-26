@@ -52,7 +52,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1HGBOsJCL7FKpJ3GDehy1e9ThayXI888K/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className=" ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
@@ -118,7 +118,7 @@ function App() {
                 </a>
                 <motion.a
                   whileTap={{ scale: 0.8 }}
-                  href="https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1HGBOsJCL7FKpJ3GDehy1e9ThayXI888K/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
@@ -155,7 +155,7 @@ function App() {
                   class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
                   onClick={(e) =>
                     window.open(
-                      "https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
+                      "https://drive.google.com/file/d/1HGBOsJCL7FKpJ3GDehy1e9ThayXI888K/view?usp=sharing"
                     )
                   }
                 >
