@@ -52,7 +52,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/146m2S-8ZFDbeXaMOo_Q8DT1bUo2ldDlN/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
                 className=" ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
@@ -118,7 +118,7 @@ function App() {
                 </a>
                 <motion.a
                   whileTap={{ scale: 0.8 }}
-                  href="https://drive.google.com/file/d/146m2S-8ZFDbeXaMOo_Q8DT1bUo2ldDlN/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
@@ -154,7 +154,9 @@ function App() {
                 <span
                   class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
                   onClick={(e) =>
-                    window.open("https://drive.google.com/file/d/146m2S-8ZFDbeXaMOo_Q8DT1bUo2ldDlN/view?usp=sharing", "_blank")
+                    window.open(
+                      "https://drive.google.com/file/d/1DoG62AKmav7blZscVKfhHdVCVR3vpSSe/view?usp=drive_link"
+                    )
                   }
                 >
                   Download CV
@@ -270,25 +272,25 @@ function App() {
               ))}
           </section>
           <section
-          id="contact"
-          className="flex flex-col items-center justify-evenly w-full my-24"
-        >
-          <p className="text-2xl text-gray-400 capitalize">Contact me</p>
-          <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">
-            {SocialLinks &&
-              SocialLinks.map((n) => (
-                <motion.a
-                  whileTap={{ scale: 0.8 }}
-                  href={n.link}
-                  key={n.id}
-                  className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
-                >
-                  {n.iconSrc}
-                  <p className="text-lg text-textBase">{n.name}</p>
-                </motion.a>
-              ))}
-          </div>
-        </section>
+            id="contact"
+            className="flex flex-col items-center justify-evenly w-full my-24"
+          >
+            <p className="text-2xl text-gray-400 capitalize">Contact me</p>
+            <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">
+              {SocialLinks &&
+                SocialLinks.map((n) => (
+                  <motion.a
+                    whileTap={{ scale: 0.8 }}
+                    href={n.link}
+                    key={n.id}
+                    className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
+                  >
+                    {n.iconSrc}
+                    <p className="text-lg text-textBase">{n.name}</p>
+                  </motion.a>
+                ))}
+            </div>
+          </section>
         </main>
       </div>
     </AnimatePresence>
