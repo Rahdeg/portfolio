@@ -19,7 +19,7 @@ import img1 from "../images/thumb-fooddeliveryapp-reactjs-dec.png";
 import img2 from "../images/url.jpg";
 
 import img4 from "../images/dash.jpg";
-import img5 from "../images/api.jpg";
+import img5 from "../images/ilearn.jpg";
 import img10 from "../images/pixroom.jpg";
 import img11 from "../images/moviebox.jpg";
 import img8 from "../images/tithew.jpg";
@@ -58,11 +58,11 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
-    name: "Companion AI",
-    imageSrc: img100,
-    techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
-    github: "https://github.com/Rahdeg/my-companion",
-    site: "https://my-companion-puce.vercel.app/",
+    name: "Ilearn",
+    imageSrc: img5,
+    techs: "Next Js, Chadcn,Cleark,Mux,Tailwind",
+    github: "https://github.com/Rahdeg/ilearn",
+    site: "https://ilearn-nine.vercel.app/",
   },
   {
     id: 2,
@@ -75,28 +75,28 @@ export const Projects = [
 
   {
     id: 3,
-    name: "Movie Box",
-    imageSrc: img11,
-    techs: "Next 13,React,MBDN,Tailwind",
-    github: "https://github.com/Rahdeg/moviebox",
-    site: "https://moviebox-tau.vercel.app/",
-  },
-  {
-    id: 4,
     name: "Food Delivery UI Mockup",
     imageSrc: img1,
     techs: "React Js, Redux, Material UI",
     github: "https://github.com/Rahdeg/foodtribes",
     site: "https://restaurant-10db5.web.app/",
   },
+  {
+    id: 4,
+    name: "Movie Box",
+    imageSrc: img11,
+    techs: "Next 13,React,MBDN,Tailwind",
+    github: "https://github.com/Rahdeg/moviebox",
+    site: "https://moviebox-tau.vercel.app/",
+  },
 
   {
     id: 5,
-    name: "Itunez App",
-    imageSrc: img5,
-    techs: "React Js, Firebase,Nodejs Tailwind css",
-    github: "https://github.com/Rahdeg/mymusic",
-    site: "https://itunez.vercel.app/",
+    name: "Companion AI",
+    imageSrc: img100,
+    techs: "Next Js,Crisp,Clerk,Chadcn,Tailwind",
+    github: "https://github.com/Rahdeg/my-companion",
+    site: "https://my-companion-puce.vercel.app/",
   },
   {
     id: 6,
